@@ -215,3 +215,44 @@
     left: 103px;
     top: 40px;
   }
+  .footer {
+    width: 63vw;
+    padding: 20px;
+    text-align: center;
+    color: #999;
+    background-color: #000;
+  }
+  .footer p {
+    margin-bottom: 30px;
+  }
+  .footer a {
+    color: #999;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    margin: 10px;
+    min-width: 150px;
+  }
+  
+  .footer .footer-lang {
+    margin: 15px 0;
+  }
+  .footer-lang button {
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+  }
