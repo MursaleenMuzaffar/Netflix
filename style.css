@@ -117,4 +117,32 @@
 .big2{
     width: 80vw;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.posters{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.posters div{
+     width: 10vw;                
+}
+.posters div img{
+    position: relative;
+    height: 26vh;
+    width: 10vw;
+}
+.posters div div:first-child{
+    width: 2vw;
+    position: relative;
+    right: -153px;
+    padding: 5px;
+    text-align: center;
+    top: 46px;
+    background-color: red;
+    z-index: 100;
 }
