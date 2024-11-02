@@ -146,3 +146,51 @@
     background-color: red;
     z-index: 100;
 }
+.count{
+    position: relative;
+    color: black;
+    font-size: 52px;
+    top: -110px;
+    font-weight: bolder;
+}
+.posters button{
+    position: relative;
+    background-color: red;
+    padding: 8px;
+    color: white;
+    border: none;
+    width: 8vw;
+    margin-left: 1vw;
+    top: -101px;
+}
+
+.big2 h2{
+    position: relative;
+    left: -405px;
+    font-size: 40px;
+    top: 46px;
+}
+.big2 h4{
+    position: relative;
+    left: -355px;
+    font-size: 40px;
+    top: -46px;
+}
+.cards div{
+    height: 30vh;
+    width: 26vh;
+    background: rgb(25,32,67);
+    background: linear-gradient(128deg, rgba(25,32,67,1) 0%, rgba(33,15,24,1) 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+,cards div h3{
+    font-size: 14px;
+    color: rgb(165,165,165);
+}
+
+.cards div img{
+    width: 4.5vw;
+}
