@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first_page{
+    width: 99vw;
+    height: 95vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 12%, rgba(85,0,0,1) 49%, rgba(85,0,0,1) 58%, rgba(0,0,0,1) 93%); ;
+}
+.welcome{
+    color: white;
+
+}
+.big{
+    height: 95vh;
+    width: 90vw;
+    margin: auto;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1192,h_670,q_70,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvZjU2MmFhZjQtNWRiYi00NjAzLWEzMmItNmVmNmMyMjMwMTM2XC9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LOYKSxIDqfPwWHR0SSJ-ugGQ6bECF0yO6Cmc0F26CQs) no-repeat center
+    ;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.logo img{
+    height: 5vh;
+}
+.navbtn button:first-child{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(165,165,165);
+}
+.navbtn button:last-child{
+    background-color: red;
+    padding: 7px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+}
+
+.navbtn button:last-child:hover{
+    background-color: rgb(116,3,3);
+}
+.welcome{
+    margin-bottom: 23vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome h1{
+    font-size: 85px;
+}
+.welcome h3{
+    font-size: 25px;
+}
+.welcome h4{
+    font-size: 15px;
+    margin: 30px 0;
+    margin-bottom: 10px;
+}
+.eml input{
+    width: 25vw;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(87,87,87);
+    padding: 7px;
+}
+.eml input::placeholder{
+    color: rgb(163,163,163);
+    font-size: 17px;
+}
+.eml button{
+    width: 15vw;
+    height: 7vh;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    padding: 7px;
+    transition: all 100ms;
+}
+.eml button:hover{
+    background-color: rgb(116,3,3);
+}
+.second_page{
+    height: 98vh;
+    width: 99vw;
+    background: rgb(0,0,0);
+    background: linear-gradient(
+      0deg,
+     rgba(0,0,0,1) 65%,
+     rgba(0,11,117,1) 100%
+   ); 
+   color: white;
+   display: flex;
+   justify-content: center;
+}
+.big2{
+    width: 80vw;
+    padding: 20px;
+}
